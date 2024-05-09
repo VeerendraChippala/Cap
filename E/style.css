@@ -1,0 +1,313 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container-fluid {
+  background-color: hsl(0, 78%, 70%);
+  border-bottom: 0px solid rgb(255, 246, 246);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-item {
+  margin-left: 50px;
+}
+.nav-item a {
+  color: white;
+  font-weight: bolder;
+  font-family: "Poetsen One", sans-serif;
+}
+.navbar-brand a {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.navbar-brand img {
+  height: 100px;
+  width: 100px;
+}
+
+#text-part {
+  padding-top: 70px;
+  text-align: center;
+}
+.paragraph img {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+}
+.paragraph p {
+  font-size: 30px;
+  background-color: transparent;
+  color: white;
+  font-family: "Poetsen One", sans-serif;
+}
+.social-logos a,
+img {
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+  border-radius: 50%;
+  transform: scale(0.9);
+  transition-duration: 0.5s;
+}
+.social-logos {
+  border-bottom: 2px solid white;
+  padding-bottom: 50px;
+}
+#About {
+  border-bottom: 2px solid white;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.Text {
+  padding-top: 50px;
+  font-size: 30px;
+  color: white;
+}
+/* caps */
+.cap {
+  width: 150px;
+  height: 150px;
+}
+
+.caps {
+  width: 150px;
+  height: 150px;
+  margin: 0%;
+}
+
+#HowtoBuy {
+  border-bottom: 2px solid white;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.card {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 10px;
+}
+.card-body h5,
+p {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.card-body h5 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.card-body p {
+  color: white;
+  font-size: 20px;
+  font-family: "Poetsen One", sans-serif;
+}
+
+.card-body {
+  padding: 30px;
+  background: rgb(168, 52, 52);
+}
+
+.card {
+  margin: 40px 80px;
+}
+#tokenomics {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 3px solid white;
+}
+.token-head h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+}
+.paragraph-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph-text p {
+  color: white;
+  border: 5px solid white;
+  background-color: rgb(202, 132, 132);
+  border-radius: 25% 10%;
+  width: 700px;
+  font-family: "Poetsen One", sans-serif;
+}
+#Roadmap {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 3px solid white;
+}
+.map-heading h1 {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+}
+.paragraph-roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph-roadmap p {
+  color: white;
+  border: 5px solid white;
+  background-color: rgb(202, 132, 132);
+  border-radius: 25% 10%;
+  width: 700px;
+}
+#last-sec {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#log-brand a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  padding-top: 0px;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: bolder;
+}
+.content p {
+  color: white;
+  background-color: transparent;
+  font-size: large;
+  padding-top: 0px;
+}
+#footer-sec {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+.social-logos a,
+img:hover {
+  transform: scale(1.1);
+}
+marquee {
+  background-color: white;
+  color: hsl(0, 78%, 70%);
+  font-family: "Poetsen One", sans-serif;
+}
+.card-text a {
+  color: white;
+  background-color: transparent;
+}
+
+.card-text {
+  color: black;
+}
+
+p {
+  font-family: "Poetsen One", sans-serif;
+}
+h5 {
+  font-family: "Jaro", sans-serif;
+}
+
+#unique p {
+  background-color: transparent;
+}
+
+/* Flexbox styles for centering content */
+#main {
+  display: flex;
+}
+
+#unique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+  width: 80%; /* Set the width to 80% */
+  margin: 0 auto;
+}
+
+/* navbar styling */
+.navbar {
+  background-color: #333; /* Change this to your desired background color */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Change this to your desired text color */
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; /* Change this to your desired style for active link */
+}
+
+.logos {
+  margin-left: 5px;
+}
+
+.edit {
+  width: 200px;
+  height: 100px;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    max-width: 60px; /* Adjust this value as needed for smaller screens */
+  }
+}
+
+@media (min-width: 768px) {
+  #unique {
+    width: 80%; /* Adjust the width of the content container for desktop */
+    max-width: 80%;
+    font-size: 20px; /* Adjust the width of the content container for desktop */
+  }
+}
+
+/* Truncate the text on smaller screens */
+@media (max-width: 767px) {
+  #unique {
+    max-width: 90%;
+    font-size: small; /* Optional: Adjust the max-width to fit your design */
+  }
+}
+
+@media (max-width: 845px) {
+  .social-logos .row {
+    flex-wrap: nowrap; /* Prevent wrapping to multiple lines */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    -ms-overflow-style: -ms-autohiding-scrollbar; /* Hide scrollbar on Edge */
+    justify-content: center; /* Center the icons */
+  }
+
+  .social-logos .col-auto {
+    flex: 0 0 auto;
+    max-width: none;
+  }
+
+  .small-logo {
+    max-width: 50px; /* Adjust the maximum width of the icons */
+    max-height: 50px; /* Adjust the maximum height of the icons */
+  }
+}
+
+#About img{
+  padding: 30px;
+}
+#acting img{
+ padding: 0px;
+ margin-left: 0px;
+ height: 100px;
+ width: 100px;
+}
+#token-text p{
+  line-height: 50px;
+}
+#Roadmap-p{
+  line-height: 50px;
+}
